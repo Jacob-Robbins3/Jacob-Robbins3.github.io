@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on My New Hugo Site</title>
+    <link>http://localhost:1313/docs/</link>
+    <description>Recent content in Docs on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 1</title>
+      <link>http://localhost:1313/docs/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/project1/</guid>
+      <description>&lt;h1 id=&#34;-game-api-project&#34;&gt;🎮 Game API Project&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;By:&lt;/strong&gt; Jacob Robbins&lt;br&gt;&#xA;&lt;strong&gt;Tech Stack:&lt;/strong&gt; PHP, NGINX, MySQL, Postman&lt;br&gt;&#xA;&lt;strong&gt;Date:&lt;/strong&gt; October 2025&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project is a RESTful API for a gaming platform.&lt;br&gt;&#xA;It allows users to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Register and login&lt;/li&gt;&#xA;&lt;li&gt;View player stats&lt;/li&gt;&#xA;&lt;li&gt;Fetch game data&lt;/li&gt;&#xA;&lt;li&gt;Access leaderboards&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;tools--technologies&#34;&gt;Tools &amp;amp; Technologies&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;PHP&lt;/strong&gt; — backend logic and database operations&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;MySQL&lt;/strong&gt; — player and game data&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;NGINX&lt;/strong&gt; — web server handling API requests&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Postman&lt;/strong&gt; — endpoint testing&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — version control and hosting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;api-endpoints&#34;&gt;API Endpoints&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Method&lt;/th&gt;&#xA;          &lt;th&gt;Endpoint&lt;/th&gt;&#xA;          &lt;th&gt;Description&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;POST&lt;/td&gt;&#xA;          &lt;td&gt;/auth/register&lt;/td&gt;&#xA;          &lt;td&gt;Register a new user&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;POST&lt;/td&gt;&#xA;          &lt;td&gt;/auth/login&lt;/td&gt;&#xA;          &lt;td&gt;Authenticate a user&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;GET&lt;/td&gt;&#xA;          &lt;td&gt;/players&lt;/td&gt;&#xA;          &lt;td&gt;Retrieve all players&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;GET&lt;/td&gt;&#xA;          &lt;td&gt;/players/:id&lt;/td&gt;&#xA;          &lt;td&gt;Retrieve a specific player&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;GET&lt;/td&gt;&#xA;          &lt;td&gt;/games&lt;/td&gt;&#xA;          &lt;td&gt;Get list of all games&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;GET&lt;/td&gt;&#xA;          &lt;td&gt;/leaderboard/:gameId&lt;/td&gt;&#xA;          &lt;td&gt;Fetch game leaderboard&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;authentication&#34;&gt;Authentication&lt;/h2&gt;&#xA;&lt;p&gt;Users receive a &lt;strong&gt;JWT token&lt;/strong&gt; upon login.&lt;br&gt;&#xA;Include it in headers for protected endpoints:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

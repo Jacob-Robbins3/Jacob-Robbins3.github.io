@@ -1,0 +1,8 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Project 1 Documentation"
+theme = "book"
+
+[params]
+  BookToC = true
+  BookLogo = "logo.png"

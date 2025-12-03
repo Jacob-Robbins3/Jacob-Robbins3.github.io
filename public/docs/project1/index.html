@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Project 1 | My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="🎮 Game API Project
+By: Jacob Robbins
+Tech Stack: PHP, NGINX, MySQL, Postman
+Date: October 2025
+
+Overview
+This project is a RESTful API for a gaming platform.
+It allows users to:
+
+Register and login
+View player stats
+Fetch game data
+Access leaderboards
+
+
+Tools &amp; Technologies
+
+PHP — backend logic and database operations
+MySQL — player and game data
+NGINX — web server handling API requests
+Postman — endpoint testing
+GitHub — version control and hosting
+
+
+API Endpoints
+
+  
+      
+          Method
+          Endpoint
+          Description
+      
+  
+  
+      
+          POST
+          /auth/register
+          Register a new user
+      
+      
+          POST
+          /auth/login
+          Authenticate a user
+      
+      
+          GET
+          /players
+          Retrieve all players
+      
+      
+          GET
+          /players/:id
+          Retrieve a specific player
+      
+      
+          GET
+          /games
+          Get list of all games
+      
+      
+          GET
+          /leaderboard/:gameId
+          Fetch game leaderboard
+      
+  
+
+
+Authentication
+Users receive a JWT token upon login.
+Include it in headers for protected endpoints:">
+    <meta name="generator" content="Hugo 0.152.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/docs/project1/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/docs/project1/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="Project 1">
+  <meta property="og:description" content="🎮 Game API Project By: Jacob Robbins
+Tech Stack: PHP, NGINX, MySQL, Postman
+Date: October 2025
+Overview This project is a RESTful API for a gaming platform.
+It allows users to:
+Register and login View player stats Fetch game data Access leaderboards Tools &amp; Technologies PHP — backend logic and database operations MySQL — player and game data NGINX — web server handling API requests Postman — endpoint testing GitHub — version control and hosting API Endpoints Method Endpoint Description POST /auth/register Register a new user POST /auth/login Authenticate a user GET /players Retrieve all players GET /players/:id Retrieve a specific player GET /games Get list of all games GET /leaderboard/:gameId Fetch game leaderboard Authentication Users receive a JWT token upon login.
+Include it in headers for protected endpoints:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+
+  <meta itemprop="name" content="Project 1">
+  <meta itemprop="description" content="🎮 Game API Project By: Jacob Robbins
+Tech Stack: PHP, NGINX, MySQL, Postman
+Date: October 2025
+Overview This project is a RESTful API for a gaming platform.
+It allows users to:
+Register and login View player stats Fetch game data Access leaderboards Tools &amp; Technologies PHP — backend logic and database operations MySQL — player and game data NGINX — web server handling API requests Postman — endpoint testing GitHub — version control and hosting API Endpoints Method Endpoint Description POST /auth/register Register a new user POST /auth/login Authenticate a user GET /players Retrieve all players GET /players/:id Retrieve a specific player GET /games Get list of all games GET /leaderboard/:gameId Fetch game leaderboard Authentication Users receive a JWT token upon login.
+Include it in headers for protected endpoints:">
+  <meta itemprop="wordCount" content="320">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Project 1">
+  <meta name="twitter:description" content="🎮 Game API Project By: Jacob Robbins
+Tech Stack: PHP, NGINX, MySQL, Postman
+Date: October 2025
+Overview This project is a RESTful API for a gaming platform.
+It allows users to:
+Register and login View player stats Fetch game data Access leaderboards Tools &amp; Technologies PHP — backend logic and database operations MySQL — player and game data NGINX — web server handling API requests Postman — endpoint testing GitHub — version control and hosting API Endpoints Method Endpoint Description POST /auth/register Register a new user POST /auth/login Authenticate a user GET /players Retrieve all players GET /players/:id Retrieve a specific player GET /games Get list of all games GET /leaderboard/:gameId Fetch game leaderboard Authentication Users receive a JWT token upon login.
+Include it in headers for protected endpoints:">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Docs
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Project 1</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h1 id="-game-api-project">🎮 Game API Project</h1>
+<p><strong>By:</strong> Jacob Robbins<br>
+<strong>Tech Stack:</strong> PHP, NGINX, MySQL, Postman<br>
+<strong>Date:</strong> October 2025</p>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>This project is a RESTful API for a gaming platform.<br>
+It allows users to:</p>
+<ul>
+<li>Register and login</li>
+<li>View player stats</li>
+<li>Fetch game data</li>
+<li>Access leaderboards</li>
+</ul>
+<hr>
+<h2 id="tools--technologies">Tools &amp; Technologies</h2>
+<ul>
+<li><strong>PHP</strong> — backend logic and database operations</li>
+<li><strong>MySQL</strong> — player and game data</li>
+<li><strong>NGINX</strong> — web server handling API requests</li>
+<li><strong>Postman</strong> — endpoint testing</li>
+<li><strong>GitHub</strong> — version control and hosting</li>
+</ul>
+<hr>
+<h2 id="api-endpoints">API Endpoints</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Method</th>
+          <th>Endpoint</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>POST</td>
+          <td>/auth/register</td>
+          <td>Register a new user</td>
+      </tr>
+      <tr>
+          <td>POST</td>
+          <td>/auth/login</td>
+          <td>Authenticate a user</td>
+      </tr>
+      <tr>
+          <td>GET</td>
+          <td>/players</td>
+          <td>Retrieve all players</td>
+      </tr>
+      <tr>
+          <td>GET</td>
+          <td>/players/:id</td>
+          <td>Retrieve a specific player</td>
+      </tr>
+      <tr>
+          <td>GET</td>
+          <td>/games</td>
+          <td>Get list of all games</td>
+      </tr>
+      <tr>
+          <td>GET</td>
+          <td>/leaderboard/:gameId</td>
+          <td>Fetch game leaderboard</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="authentication">Authentication</h2>
+<p>Users receive a <strong>JWT token</strong> upon login.<br>
+Include it in headers for protected endpoints:</p>
+<p>PROJECT 2</p>
+<p>Finished all the following below in order:</p>
+<ul>
+<li>
+<p><strong>Re-implement Project 1 APIs</strong>: 20%</p>
+<ul>
+<li>Re-implement Project 1 endpoints using Laravel</li>
+<li>Use Eloquent ORM for database operations</li>
+<li>Implement authentication with Laravel Sanctum</li>
+</ul>
+</li>
+<li>
+<p><strong>Deploy with a shell script</strong>: 20%</p>
+<ul>
+<li>Automated deployment using shell script</li>
+<li>Create run script (<code>run.sh</code>) for one-command deployment</li>
+<li>Use existing shell script to make a shell script for your Laravel project.</li>
+</ul>
+</li>
+<li>
+<p><strong>Deploy with Docker</strong>: 20%</p>
+<ul>
+<li>Containerize with Docker &amp; Docker Compose</li>
+<li>Create setup script (<code>setup.sh</code>) for one-command deployment</li>
+<li>Use existing shell script to make a shell script for your Docker project.</li>
+</ul>
+</li>
+<li>
+<p><strong>Re-implement Project 1 Documentation</strong>: 20%</p>
+<ul>
+<li>Re-implement Project 1 marp documentation using Hugo</li>
+<li>Both Marp and Hugo use Markdown, so minimal (or no) efforts should be required to transform.</li>
+<li>Add your portpolio pages to Hugo.</li>
+</ul>
+</li>
+<li>
+<p><strong>Automatic Deploy to GitHub.io</strong>: 20%</p>
+<ul>
+<li>Publish documentation to <strong>GitHub.io</strong></li>
+<li>Upload complete source to <strong>GitHub</strong> so GitHub action transforms the source into published website to GitHub.io.</li>
+</ul>
+</li>
+</ul>
+<p>I had some difficulties with re-implementing Project 1 API&rsquo;s but I got it to work by looking over the class material again for a refresher. Other than that everything wasn&rsquo;t super hard.
+Github is confusing sometimes but that&rsquo;t about it.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  My New Hugo Site 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
